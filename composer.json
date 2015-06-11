@@ -1,0 +1,25 @@
+{
+    "name": "mockprocessor",
+    "description":"A pretend mock processor",
+    "keywords":[],
+    "type":"library",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"Colin Gagnon",
+            "email": "gagnon.colin@gmail.com",
+            "homepage":"https://github.com/maxxco/"
+        }
+    ],
+    "homepage": "https://github.com/maxxco/",
+    "require":{
+        "php":">=5.3.9",
+        "slim/slim": "~2.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-4": { "MockProcessor\\": "src/mockprocessor" }
+    }
+}
